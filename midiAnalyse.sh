@@ -1,3 +1,6 @@
+#!/bin/bash
+# Midi File Analyzer for future Options of MihDi
+
 declare -a N=("C" "C#" "D" "D#" "E" "F" "F#" "G" "G#" "A" "A#" "B")
 
 if [ -z "$1" ]; then

@@ -1,0 +1,27 @@
+nice effects: 
+- MihDi Controller + ...
+
+amsynth (connect with qjackctl)
+(F)BriansBank01 52:Spectrum2  mystisch und dezent
+  		63
+		109  grussel 
+		111  step-tanz
+		114  screem-schranz
+	     02 018  nice	
+	     02 029  nice	
+	     02 032  bassig	
+	     02 083  bassmelody	
+	     02 115  playable
+	     16 047  playable nice
+
+########################################################################
+ams  SineSolo.ams = nice synthi melody (connect with qjackctl)
+
+#######################################################################
+vmpk qsynth  (qjackctl)
+  - many istruments
+
+
+######################################################################
+after-Effects:
+- guitarix via qjackctl

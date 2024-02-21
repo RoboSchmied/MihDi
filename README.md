@@ -11,4 +11,4 @@
 - 6 Potentiometer 10kOhm (change settings)
 - 3 Buttons (change settings)
 - 2 LED (show status and frequency)
-- 1 USB cable (connect to synthesizer and PC)
+- 1 (micro)-USB cable (connect to synthesizer or PC)

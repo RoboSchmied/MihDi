@@ -40,8 +40,6 @@ int BS=1;   //button state
 #define LEDFREQ      /// show Freq on front LEDs
 #define TEST1   //test midi program change on button
 
-
-
 const int PING = 3; // TRIG Pin
 const int ECHO = 2; // ECHO Pin
 const int LED1Pin = 14;  // Freq
@@ -60,7 +58,6 @@ int DistMax = 1700;
 const int DistMinSetable = 1200; //min Distance setable by Pot2
 const int DistMaxSetable = 7000;
 
-
 struct Note {
   unsigned long tStart;  //Time start millis
   bool isPlaying;
@@ -68,8 +65,6 @@ struct Note {
 Note N[128] = {false}; //init to zero
 unsigned long t;  //Time
 unsigned long NotePlayTime = 2000;
-
-
 
 // Constants
 //
@@ -102,13 +97,10 @@ byte NoteSpMax = 127; // NotenSpektrum wird von BUT2 geaendert   von 0-127  auf 
 byte NoteMin = 0; // wird von POT1 geaendert    Notenhöhe nah
 byte NoteMax = 127; // wird von POT5 geaendert   Notenhöhe fern
 
-
 const byte NoteHarMin = 0; // Harmonic notes min
 const byte NoteHarMax = 39; // Harmonic notes max number
 const byte NoteAllMin = 0;  // All notes min note (in header file)
 const byte NoteAllMax = 108 - 12;  // All notes min note (in header file)
-
-
 
 byte lastNote = 0; //letzte gespielte note
 
@@ -184,7 +176,6 @@ void noteOff(byte channel, byte pitch, byte velocity) {
   }
 
 }
-
 
 void allOff() {
   // turn all notes off
@@ -266,8 +257,6 @@ void programChange(byte cmd, byte channel, byte data1) {
 }
 
 
-
-
 int N1 = 25, N1alt = 0;
 //int N2=14;
 
@@ -306,7 +295,6 @@ void loop() {
   static int s_nLastMappedValue3 = 0;
   static int s_nLastPotValue4 = 0;
   static int s_nLastMappedValue4 = 0;
- 
 
   static int nMappedValue;
   static int nMappedValue2;
@@ -336,8 +324,6 @@ void loop() {
       Serial.println(nMappedValue5);
       Serial.print("M6=");
       Serial.println(nMappedValue6);
-
-
     }
 
     ss = inputString.substring(0, 3);
@@ -420,8 +406,6 @@ void loop() {
     startPing();
   }
 
-
-
   //Spielende Toeen Stoppen nach...
   for (int i = 0; i <= 127; i++) {
     if ( N[i].isPlaying == true ) {
@@ -471,7 +455,6 @@ void loop() {
 #endif
 
   }
-
 
   // Potti 1
   int nCurrentPotValue = analogRead(POT_PIN);

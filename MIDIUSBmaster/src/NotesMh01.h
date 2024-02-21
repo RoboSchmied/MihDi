@@ -105,9 +105,6 @@
 #define D0b 13
 #define C0  12
 
-
-
-
 /// Full (88) 97 key range note  high to low midi byte value mapping array
 const byte note[] = {C8,
                                B7, B7b, A7, A7b, G7, G7b, F7, E7, E7b, D7, D7b, C7,

@@ -2,7 +2,7 @@
 ### *Dance your Melody!*
 
 - USB MIDI device that outputs notes relative to your distance for use with synthesizers.
-- created summer 2017
+- created in summer 2017
 
 ![image of MihDi System](docs/MihDi01.jpg)
 

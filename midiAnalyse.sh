@@ -1,5 +1,7 @@
 #!/bin/bash
 # Midi File Analyzer for future Options of MihDi
+# install deps:
+# sudo apt install abcmidi lilypond
 
 declare -a N=("C" "C#" "D" "D#" "E" "F" "F#" "G" "G#" "A" "A#" "B")
 
@@ -10,7 +12,6 @@ else
 fi
 
 F2="$F1.ly"
-
 
 if [ "v1" == true ]; then
   midi2ly "$F1" -o "$F2"

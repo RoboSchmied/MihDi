@@ -3,7 +3,6 @@
    - Dance your melody!
    - A Midi device that pushes notes to synthesizer over USB.
    - The notes are relative to the distance measured by ultrasonic sensor.
-
 */
 #include "MIDIUSB.h"
 #include "NotesMh01.h"
@@ -162,7 +161,6 @@ void noteOn(byte channel, byte pitch, byte velocity) {
     digitalWrite(LED2Pin, LOW);
 #endif
   }
-  
 }
 
 void noteOff(byte channel, byte pitch, byte velocity) {

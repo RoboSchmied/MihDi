@@ -1,7 +1,10 @@
 # MihDi
 ### *Dance your Melody!*
 
-- USB MIDI device that outputs notes relative to your distance for use with synthesizers.
+- MIDI device that outputs notes relative (to the distance) over USB to synthesizer.
+- confirmed working
+  - on linux using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth)
+  - on android using [DRC (Polyphonic Synthesizer)](https://www.imaginando.pt/products/drc-polyphonic-synthesizer)
 - created in summer 2017
 
 ![image of MihDi System](docs/MihDi01.jpg)

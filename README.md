@@ -25,7 +25,7 @@
 | Pin | Device| Usage |
 |----|--------|---|
 | D2 | ECHO  US-015 | distance sensor receives ultrasonic pulse echo |
-| D3 | TRIG  US-015 | distance sensor sends ultrasonic pulse |
+| D3 | TRIG  US-015 | trigger distance sensor to send ultrasonic pulse |
 | D5 | Button1 | output notes on every valid distance or only on distance changes |
 | D9 | Button3 | set/unset a minimal distance you need to move to produce a new note | 
 | D14 | LED1  | show frequency of distance measurement |

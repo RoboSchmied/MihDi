@@ -42,5 +42,5 @@
 
 ## Info
 - MIDI output channel is 1, you can change it in code.
-- Codeing style is not state of the art, feel free to clean it up.
+- Coding style is not state of the art, feel free to clean it up.
 - You can ask about the project at [MihDi[at]roboschmie.de]()

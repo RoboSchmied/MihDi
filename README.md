@@ -40,4 +40,6 @@
 | A7 | Pot6 | note height far |
 | 5V | LED3,4 | show power state |
 
+## Info
+- MIDI output channel is 1, you can change it in code.
 - You can ask about the project at [MihDi[at]roboschmie.de]()

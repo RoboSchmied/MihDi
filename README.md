@@ -39,3 +39,5 @@
 | A6 | Pot5 | note height near |
 | A7 | Pot6 | note height far |
 | 5V | LED3,4 | show power state |
+
+- You can ask about the project at [MihDi[at]roboschmie.de]()

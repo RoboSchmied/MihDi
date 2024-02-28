@@ -1,5 +1,5 @@
 # MihDi - touchless sound generator 
-### *Dance your Melody*
+### *Dance a Melody*
 
 - MIDI device that outputs notes (relative to distance) over USB to synthesizer or other sound engines.
 - confirmed working
@@ -34,7 +34,7 @@
 | D16 | LED2  | light on sound output |
 |  |   |  |
 | A0 | Pot1 | volume |
-| A1 | Pot2 | distance max |
+| A1 | Pot2 | distance max (1-7 meter) |
 | A2 | Pot3 | sound duration |
 | A3 | Pot4 | frequency |
 | A6 | Pot5 | note height near |

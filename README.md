@@ -5,7 +5,8 @@
 - confirmed working
   - on linux using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth)
   - on android using [DRC (Polyphonic Synthesizer)](https://www.imaginando.pt/products/drc-polyphonic-synthesizer)
-- powered over USB  
+- powered over USB
+- enhanced accuracy and frequency in distance measurement utilizing interrupt routines
 - created in summer 2017
 
 ![image of MihDi System](docs/MihDi01.jpg)

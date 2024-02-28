@@ -17,9 +17,9 @@
 - 1 Arduino pro micro (microprocessor board)
 - 1 US-015 (ultra sonic distance sensor) 
 - 6 Potentiometer 10kOhm (change settings)
-- 3 Buttons (change settings)
-- 4 LED (show status and frequency)
-- 1 (micro)-USB cable (connect to synthesizer or PC)
+- 3 2-state-Switches (change settings)
+- 4 LED 5V (show status and frequency)
+- 1 (micro)-USB cable (connect to synthesizer or programmer)
 
 ## Connections 
 ### to arduino board
@@ -27,10 +27,10 @@
 |----|--------|---|
 | D2 | ECHO  US-015 | distance sensor receives ultrasonic pulse echo |
 | D3 | TRIG  US-015 | trigger distance sensor to send ultrasonic pulse |
-| D5 | Button1 | output notes on every valid distance or only on distance changes |
-| D9 | Button3 | set/unset a minimal distance you need to move to produce a new note | 
+| D5 | Switch1 | hold or repeat note on same distance |
+| D9 | Switch3 | set/unset a minimal distance you need to move to produce a new note | 
 | D14 | LED1  | show frequency of distance measurement |
-| D15 | Button2 | change output range between half notes and all notes | 
+| D15 | Switch2 | change output range between half notes and all notes | 
 | D16 | LED2  | light on sound output |
 |  |   |  |
 | A0 | Pot1 | volume |

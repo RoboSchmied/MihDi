@@ -46,3 +46,6 @@
 - Coding style is not state of the art, feel free to clean it up.
 - You can ask about the project at `MihDi[at]roboschmie.de`
 - [Report Bugs and Issues](https://github.com/RoboSchmied/MihDi/issues)
+
+## Dependencies 
+- [MIDIUSB](https://github.com/arduino-libraries/MIDIUSB)

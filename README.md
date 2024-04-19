@@ -2,9 +2,9 @@
 ### *Dance a Melody*
 
 - MIDI device that outputs notes (relative to distance) over USB to synthesizer or other sound engines.
-- confirmed working
-  - on linux using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth)
-  - on android using [DRC (Polyphonic Synthesizer)](https://www.imaginando.pt/products/drc-polyphonic-synthesizer)
+- confirmed working on
+  - **Linux** using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth)
+  - **Android** using [DRC (Polyphonic Synthesizer)](https://www.imaginando.pt/products/drc-polyphonic-synthesizer)
 - powered over USB
 - enhanced accuracy and frequency in distance measurement utilizing interrupt routines
 - created in summer 2017
@@ -42,7 +42,7 @@
 | 5V | LED3,4 | show power state |
 
 ## Info
-- MIDI output channel is `1`, you can change it in code.
+- MIDI output channel is `1`, you can change it in [code](https://github.com/RoboSchmied/MihDi/blob/e676b853b4f4d75e6b0053dfe630ebbb68111ba0/MihDi.ino#L122).
 - Coding style is not state of the art, feel free to clean it up.
 - You can ask about the project at `MihDi[at]roboschmie.de`
 - [Report Bugs and Issues](https://github.com/RoboSchmied/MihDi/issues)

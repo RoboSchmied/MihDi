@@ -3,7 +3,7 @@
 
 - MIDI device that outputs notes (relative to distance) over USB to synthesizer or other sound engines.
 - confirmed working on
-  - **Linux** using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth)
+  - **Linux** using [ams](https://github.com/royvegard/ams), [vmpk](https://github.com/pedrolcl/VMPK), [qsynth](https://github.com/rncbc/qsynth), [amsynth](https://github.com/amsynth/amsynth), [ZynAddSubFX](https://github.com/zynaddsubfx/zynaddsubfx)
   - **Android** using [DRC (Polyphonic Synthesizer)](https://www.imaginando.pt/products/drc-polyphonic-synthesizer)
 - powered over USB
 - enhanced accuracy and frequency in distance measurement utilizing interrupt routines

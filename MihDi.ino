@@ -3,11 +3,12 @@
    - Dance your melody!
    - A Midi device that pushes notes to synthesizer over USB.
    - The notes are relative to the distance measured by ultrasonic sensor.
+   - select Tools/Board "Arduino Micro"
 */
 #include "MIDIUSB.h"
-#include "NotesMh01.h"
+#include "MIDIUSBmaster/src/NotesMh01.h"
 
-//#define VERSION01   //  erste version MCCrypt  DJ-1/2-Umbau   , sonst mario-version
+#define VERSION01   // is first version: MCCrypt  DJ-1/2-rebuild, else second version(ma)
 
 #ifdef VERSION01   //  erste version MCCrypt  DJ-1/2-Umbau
   // ENABLE ACTUATORS
